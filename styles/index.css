@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* *{
+    padding: 0;
+    margin: auto;
+} */
+.banner-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+
+}
+body{
+    color: #1E1E1E;
+}
+
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    
+    width: 900px;
+    height: 516px;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+  text-align: center;
+  padding: 28px;
+  
+}
+.banner-image{
+    width: 200px;
+    height: 200px;
+}
+
+
+.banner-heading{
+    width: 856px;
+    height: 130px;
+    color: #0D1321;
+    font-size: 65px;
+    text-align: center;
+   margin: auto;
+
+}
+
+.banner-description{
+    width: 856px;
+    height: 52px;
+    color: #757575;
+
+}
+.banner-btn{
+    color: #FFFF;
+    background-color: #0D1321;
+    width: 195px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 9px;
+    border: none;
+}
+.banner-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+   .box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80PX;
+    
+   } 
+   
+
+.section{
+   
+   
+   
+   max-width: 940px;
+    height: 1216px;
+    
+    background-image: url("../assets/Hero-bg.png");
+    padding: 90px 80px;
+    
+}
+    
+
+ /* .section-1{ 
+    width: 600px;
+    height: 109px;
+   justify-content: center;
+   align-items: center;
+  text-align: center;
+  text-align: center;
+  */
+
+  
+ 
+/* }  */
+
+.section-heading{
+   
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: bold;
+   text-align: center;
+}
+.banner-descrip{
+    font-size: 13px;
+    height: 52px;
+    color: #757575;
+    text-align: center;
+    
+    
+    
+
+} 
+.section-description{
+    display: flex;
+   max-width: 900px;
+   height: 336px;
+align-items: center;
+   text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+   
+    
+    
+    
+}
+.sec-des-title{
+    max-width: 360px;
+    height: 200px;
+    margin: 0px;
+    text-align: left;
+   
+   
+    
+}
+.sec-image{
+    max-width: 260px;
+    height: 200px;
+}
+.section-head{
+   color: #0D1321;
+    font-weight: bold;
+    font-size: 24px;
+}
+.section-dec{
+    font-weight:7px;
+    font-size: 16px;
+    color: #1E1E1E;
+
+}
+.sec-btn{
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 132px;
+    height: 30px;
+
+}
+.video{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 145px;
+    
+}
+iframe{
+    border-radius: 15px;
+}
+.last-description{
+    
+}
+.all-description{
+    display: flex;
+   justify-content: center;
+   
+   
+   height: 299px;
+   margin: 45px;
+}
+.last-descrip{
+    text-align: left;
+    max-width: 284px;
+    height: 219px;
+    padding: 40px;
+}
+ 
+.next-descrition{
+  
+    
+}
+.last-des-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0D1321;
+}
+.btn-last{
+    max-width: 284px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0D1321;
+    text-decoration: none;
+    border-top: none #757575;
+    border-left: none;
+    border-right: none;
+    
+
+}
+
+.footer-des{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),
+    
+    url(../assets/handshake.jpg);
+    height: 331px;
+    max-width: 1140px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: none;
+    padding: 48px 64px;
+    border-radius: 16px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    height: 36px;
+    
+}
+.banner-descr{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 52px;
+    
+}
+.sss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+footer textarea {
+    height: 36px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+   font-size: 16px;
+   font-weight:200;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    text-align: left;
+}
+    
+  footer input{
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    color: #0D1321;
+    width: 120px;
+   margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    
+    border: none;}
+  
